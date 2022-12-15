@@ -1,64 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body
-    style="display: flex; flex-direction: row; justify-content: space-evenly"
-  >
-    <section
-      style="
-        display: flex;
-        width: 200px;
-        border: 1px solid red;
-        padding: 5px;
-        flex-direction: column;
-      "
-    >
-      <!--Emre's column starts here-->
-      <section id="emre">
-        <img src="pic.jpg" alt="Random picture" />
-        <h1>Emre Dağ</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-        <h5>Bertus Aafjes</h5>
-        <p><em> The standard chunk of Lorem Ipsum used since the 1500s </em></p>
-        <form action="#">
-          <label for="members">Choose a group member:</label>
-          <div>
-            <select name="groupMember" id="members">
-              <option value="member1">member1</option>
-              <option value="member2">member2</option>
-              <option value="member3">member3</option>
-              <option value="member4">member4</option>
-            </select>
-          </div>
-          <div><input type="text" id="" /></div>
-          <div><button type="submit">Save</button></div>
-          <label for="radioSelect">Do you like the quote?</label>
-          <div>
-            <input type="radio" name="radioSelect" id="yes" />
-            <label for="yes">Yes</label>
-            <div>
-              <input type="radio" name="radioSelect" id="no" />
-              <label for="no">No</label>
-            </div>
-          </div>
-        </form>
-      </section>
-      <!--Emre's column ends here-->
+</head>
+<body style="display: flex; flex-direction: row; justify-content: space-evenly;">
+    
+    <section style="display: flex; width: 200px; border: 1px solid red; padding: 5px; flex-direction: column;">   
+        <section id="Deniz">    
+            <img src="https://picsum.photos/200/200" alt="picture of the sea"> 
+                <h1>Deniz Tuna</h1>            
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nulla doloremque accusamus quos mollitia neque nam
+                perferendis non dolore suscipit, veritatis corporis sed quia beatae similique. Eligendi saepe optio ipsa?
+                </p>
+                    <br>
+                    <br>            
+                <h5>George Eliot</h5>
+                <blockquote><p>It is never too late to be what you might have been.</p></blockquote>
+            
+            <form>Choose a group member:</form>
+                <label for="member"></label>
+                    <select name="member" id="member">
+                        <option value="Hüseyin">Hüseyin</option>
+                        <option value="Kubilay">Kubilay</option>
+                        <option value="Emre">Emre</option>
+                        <option value="Deniz">Deniz</option>
+                    </select>
+
+                <label for="stext"></label>
+                <input type="text" name="stext" placeholder="Some text ...">
+
+                <button>Save</button>
+            
+                <legend>Do you like the quote?</legend>
+                <div>
+                    <input type="radio" name="yn" value="yes" id="1">
+                    <label for="1">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" name="yn" value="no" id="2">
+                    <label for="2">No</label>
+                </div>
+
+
+
+        
+            
+
+        </section> 
     </section>
-  </body>
+
+    
+</body>
 </html>
